@@ -1,0 +1,18 @@
+PUT http://localhost:8082/filmes HTTP/1.1
+content-type: application/json
+
+  {
+    "id": 12,
+    "titulo": "1917 (2019)",
+    "urlFoto": "https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_SY1000_CR0,0,631,1000_AL_.jpg",
+    "dtLancamento": "2020-01-23",
+    "descricao": "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap",
+    "nota": 8.4,
+    "urlIMDb": "https://www.imdb.com/title/tt8579674/?ref_=hm_fanfav_tt_1_pd_fp1",
+    "genero": "Drama"
+  }
+
+###
+
+GET http://localhost:8082/filmes/12
+
